@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ECF2F8;
+  font-family: "Barlow Semi Condensed";
+  padding: 20px;
+}
+
+/* Daniel Clifford BOX */
+
+.box-daniel {
+  border-radius: 8px;
+  background: url('/images/bg-pattern-quotation.svg') no-repeat;
+  background-position: top right 80px;
+  background-color: #733FC8;
+  box-shadow: rgba(72, 85, 106, 0.2474);
+}
+
+.box-daniel .author {
+  display: flex;
+  flex-direction: row;
+  padding-top: 26px;
+  padding-left: 29px;
+}
+
+.box-daniel .avatar {
+  height: 28px;
+  width: 28px;
+  border-radius: 14px;
+  border: solid 2px #A775f1;
+}
+
+.box-daniel .author-name {
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.box-daniel .author-name :nth-child(1) {
+  color: #FFFFFF;
+  font-size: 13px;
+}
+
+.box-daniel .author-name :nth-child(2) {
+  color: #FFFFFF;
+  font-size: 11px;
+  opacity: 50%;
+}
+
+.box-daniel .testimony {
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-top: 19px;
+  margin-left: 32px;
+  margin-right: 32px;
+  line-height: 24px;
+}
+
+.box-daniel .description {
+  margin-top: 15px;
+  font-size: 13px;
+  margin-left: 32px;
+  margin-right: 32px;
+  padding-bottom: 32px;
+  color: #CFCFCF;
+  opacity: 70%;
+  line-height: 18px;
+}
+
+/* Jonathant Walters BOX */
+
+.box-jonathan {
+  border-radius: 8px;
+  background-color: #48556A;
+}
+
+.box-jonathan .author{
+  display: flex;
+  flex-direction: row;
+  padding-top: 26px;
+  padding-left: 32px;
+}
+
+.box-jonathan .avatar {
+  height: 28px;
+  width: 28px;
+  border-radius: 14px;
+}
+
+.author-name {
+  margin-left: 17px;
+}
+
+.box-jonathan .author-name :nth-child(1) {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.box-jonathan .author-name :nth-child(2) {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 11px;
+  opacity: 50%;
+}
+
+.box-jonathan .testimony {
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-top: 18px;
+  margin-left: 32px;
+  margin-right: 32px;
+  line-height: 24px;
+}
+
+.box-jonathan .description {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 13px;
+  opacity: 70%;
+  margin-top: 16px;
+  margin-left: 32px;
+  margin-right: 32px;
+  padding-bottom: 32px;
+  line-height: 18px;
+}
+
+/* Kira Whittle BOX */
+
+.box-kira {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+}
+
+.box-kira .author {
+  display: flex;
+  flex-direction: row;
+  padding-top: 26px;
+  padding-left: 32px;
+}
+
+.box-kira .avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+}
+
+.box-kira .author-name :nth-child(1) {
+  font-weight: 500;
+  font-size: 13px;
+  color: #48556A;
+}
+
+.box-kira .author-name :nth-child(2) {
+  font-weight: 500;
+  font-size: 11px;
+  color: #48556A;
+  opacity: 50%;
+}
+
+.box-kira .testimony {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 32px;
+  margin-top: 18px;
+} 
+
+.box-kira .description {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #48556A;
+  margin-top: 24px;
+  margin-left: 32px;
+  margin-right: 32px;
+  padding-bottom: 32px;
+}
+
+/* Jeanette BOX */
+
+.box-jeanette {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+}
+
+.box-jeanette .avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+}
+
+.box-jeanette .author {
+  display: flex;
+  flex-direction: row;
+  padding-top: 26px;
+  padding-left: 32px;
+}
+
+.box-jeanette .author-name :nth-child(1){
+  font-weight: 500;
+  color: #48556A;
+  font-size: 13px;
+}
+
+.box-jeanette .author-name :nth-child(2){
+  font-weight: 500;
+  font-size: 11px;
+  color: #48556A;
+  opacity: 50%;
+}
+
+.box-jeanette .testimony {
+  font-weight: 600;
+  font-size: 20px;
+  color: #48556A;
+  margin-left: 32px;
+  margin-top: 18px;
+  line-height: 24px;
+}
+
+.box-jeanette .description {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  margin-top: 24px;
+  margin-left: 32px;
+  margin-right: 32px;
+  color: #48556A;
+  opacity: 70%;
+  padding-bottom: 32px;
+}
+
+/* Patrick BOX */
+
+.box-patrick {
+  background-color:  #19202D;
+  border-radius: 8px;
+}
+
+.box-patrick .author {
+  display: flex;
+  flex-direction: row;
+  padding-top: 26px;
+  padding-left: 32px;
+}
+
+.box-patrick .avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+}
+
+.box-patrick .author-name :nth-child(1){
+  font-weight: 500;
+  font-size: 13px;
+  color: #FFFFFF;
+}
+
+.box-patrick .author-name :nth-child(2){
+  font-weight: 500;
+  font-size: 11px;
+  color: #FFFFFF;
+  opacity: 50%;
+}
+
+.box-patrick .testimony {
+  color: #ECF2F8;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 18px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.box-patrick .description {
+  color: #FFFFFF;
+  font-size: 13px;
+  opacity: 70%;
+  margin-top: 24px;
+  line-height: 18px;
+  margin-left: 32px;
+  margin-right: 32px;
+  padding-bottom: 32px;
+}
+
+/* GRID */
+
+.container {
+  padding: 80px 0;
+}
+
+
+.grid {
+  max-width: 1110px;
+  margin: auto;
+  vertical-align: middle;
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 24px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 282px 262px;
+  grid-template-areas: 
+  "box-daniel box-daniel box-jonathan box-kira"
+  "box-jeanette box-patrick box-patrick box-kira";
+}
+
+.box-daniel {
+  grid-area: box-daniel;
+}
+
+.box-jonathan {
+  grid-area: box-jonathan;
+}
+
+.box-jeanette {
+  grid-area: box-jeanette;
+}
+
+.box-kira {
+  grid-area: box-kira;
+}
+
+.box-patrick {
+  grid-area: box-patrick;
+}
+
+/* media queries for font sizes */
+
+
+@media screen and (max-width: 1100px) {
+  .grid {
+    grid-column-gap: 30px;
+    grid-row-gap: 24px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 262px 262px 262px;
+    grid-template-areas: 
+    "box-daniel box-daniel box-jonathan"
+    "box-kira box-kira box-kira"
+    "box-jeanette box-patrick box-patrick";
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .grid {
+    grid-column-gap: 30px;
+    grid-row-gap: 24px;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 262px 262px 262px 262px;
+    grid-template-areas: 
+    "box-daniel box-daniel"
+    "box-jonathan box-kira"
+    "box-jeanette box-kira"
+    "box-patrick box-patrick";
+  }
+}
+
+  @media screen and (max-width: 400px) {
+    .grid {
+      grid-column-gap: 30px;
+      grid-row-gap: 24px;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      grid-template-areas: 
+      "box-daniel"
+      "box-jonathan"
+      "box-jeanette"
+      "box-patrick"
+      "box-kira";
+    }
+}
